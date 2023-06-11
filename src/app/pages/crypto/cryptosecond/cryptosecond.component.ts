@@ -5,7 +5,7 @@ import { CryptoLogicTexts } from 'src/app/json/cryptologic_texts';
 @Component({
   selector: 'app-cryptosecond',
   templateUrl: './cryptosecond.component.html',
-  styleUrls: ['./cryptosecond.component.scss']
+  styleUrls: ['../../../../styles.scss']
 })
 export class CryptosecondComponent {
   cryptoLogicTexts = new CryptoLogicTexts();
