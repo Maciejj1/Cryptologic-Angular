@@ -1,0 +1,55 @@
+<!-- <div class="navbar">
+  <div class="navbar_container">
+    <div class="navbar_container_base">
+      <div class="navbar_container_base_title">
+        <img class="navbar_container_base_title_icon" [src]="cryptoLogicImages.clNavbarLogo" />
+      </div>
+      <div class="navbar_container_base_items">
+
+        <div class="navbar_container_base_items_item"><a (click)="goToDashboard()">
+          <p class="navbar_container_base_items_item_text">
+            {{ cryptoLogicTexts.clNavFirstItem }}
+          </p></a>
+        </div>
+
+        <div class="navbar_container_base_items_item"> <a (click)="goToClients()">
+          <p class="navbar_container_base_items_item_text">
+            {{ cryptoLogicTexts.clNavSecondItem }}
+          </p></a>
+        </div>
+
+        <div class="navbar_container_base_items_item"><a (click)="goToPromotions()">
+          <p class="navbar_container_base_items_item_text">
+            {{ cryptoLogicTexts.clNavThirdItem }}
+          </p></a>
+        </div>
+
+        <div class="navbar_container_base_items_item"><a (click)="goToSettings()">
+          <p class="navbar_container_base_items_item_text">
+            {{ cryptoLogicTexts.clNavFouthItem }}
+          </p></a>
+        </div>
+        <div class="navbar_container_base_items_item"><a (click)="goToSettings()">
+          <p class="navbar_container_base_items_item_text">
+            {{ cryptoLogicTexts.clNavFifthItem }}
+          </p></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="navbar">
+  <div class="navbar_container">
+    <div class="navbar_container_logo">
+      <img class="navbar_container_logo_image" [src]="cryptoLogicImages.clNavbarLogo"/>
+    </div>
+    <div class="navbar_container_links">
+      <a class="navbar_container_links_link" (click)="goToHome()">Strona Główna</a>
+      <a class="navbar_container_links_link" (click)="goToCrypto()">Czym są?</a>
+      <a class="navbar_container_links_link" (click)="goToBlockchain()">Blockchain</a>
+      <a class="navbar_container_links_link" (click)="goToInvest()">Dlaczego warto zainwestować?</a>
+      <a class="navbar_container_links_link" (click)="goToCryptoMiners()">Koparki Kryptowalut</a>
+    </div>
+  </div>
+</div>
